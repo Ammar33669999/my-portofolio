@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Ammar Yaser – Full Stack Developer specializing in MEAN Stack, modern web applications, and scalable systems.">
+    <meta name="theme-color" content="#7CB342">
+    <title>Ammar Yaser | Full Stack Developer</title>
+
+    <!-- Preconnect to external origins for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Preload critical assets -->
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="images/ammar.webp" as="image" type="image/webp">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a class="nav-logo" href="#">Ammar Yaser</a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="hamburger" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </label>
+
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#work" class="nav-link">Work</a></li>
+                <li><a href="#contact" class="nav-btn">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">I am Ammar Yaser</h1>
+                <p class="hero-subtitle">
+                    Full Stack Developer specialized in MEAN Stack with strong experience in
+                    network infrastructure, scalable systems, and modern UI development.
+                </p>
+                <a href="#contact" class="btn btn-primary">Let's Get Started</a>
+
+            </div>
+
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="https://media.licdn.com/dms/image/v2/D4D35AQHajR4YwG_72A/profile-framedphoto-shrink_400_400/B4DZrP5sycJIAc-/0/1764424601167?e=1771664400&v=beta&t=tKIwH3spu4w_uyxuSy27Yyi0g0xN9c4BtiD1ncJkHQs"
+                        alt="Ammar Yaser Profile Photo" class="profile-img" width="350" height="350"
+                        fetchpriority="high">
+                </div>
+            </div>
+        </div>
+
+        <!-- Stats Bar -->
+        <div class="stats-bar">
+            <div class="stat-item">
+                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                    <polyline points="22 4 12 14.01 9 11.01" />
+                </svg>
+                <span><strong>50+</strong> Projects Completed</span>
+            </div>
+            <div class="stat-item">
+                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" />
+                </svg>
+                <span><strong>30+</strong> Happy Clients</span>
+            </div>
+            <div class="stat-item">
+                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12 6 12 12 16 14" />
+                </svg>
+                <span><strong>5+</strong> Years Experience</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- EDUCATION -->
+        <section id="education" class="case-studies">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Education</h2>
+                    <p class="section-subtitle">My academic background and professional training that shaped my
+                        expertise.</p>
+                </div>
+
+                <div class="case-studies-grid">
+                    <article class="case-card">
+                        <div class="case-content">
+                            <span class="case-tag">Professional Training</span>
+                            <h3 class="case-title">NTI – MEAN Stack (Zagazig)</h3>
+                            <p class="case-description">Professional MEAN Stack training with hands-on projects covering
+                                MongoDB, Express.js, Angular, and Node.js development.</p>
+                            <a href="#" class="btn btn-secondary btn-small">Learn More</a>
+                        </div>
+                        <div class="case-image">
+                            <img src="./download.jpg" alt="NTI Mean Stack Training" loading="lazy" width="500"
+                                height="300" decoding="async">
+                        </div>
+                    </article>
+
+                    <article class="case-card case-card-reverse">
+                        <div class="case-content">
+                            <span class="case-tag">University Degree</span>
+                            <h3 class="case-title">Zagazig University</h3>
+                            <p class="case-description">Bachelor's degree in Computer Science and Information
+                                Technology, providing a strong foundation in software engineering principles.</p>
+                            <a href="#" class="btn btn-secondary btn-small">Learn More</a>
+                        </div>
+                        <div class="case-image">
+                            <img src="./fci.jpg" alt="Zagazig University" loading="lazy" width="500" height="300"
+                                decoding="async">
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="skills">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Skills</h2>
+                    <p class="section-subtitle">Technologies and tools I use to bring ideas to life.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2"
+                                viewBox="0 0 24 24">
+                                <polygon points="12 2 2 7 12 12 22 7 12 2" />
+                                <polyline points="2 17 12 22 22 17" />
+                                <polyline points="2 12 12 17 22 12" />
+                            </svg>
+                        </div>
+                        <h3 class="skill-title">Front End</h3>
+                        <p class="skill-description">Creating responsive, accessible, and performant user interfaces.
+                        </p>
+                        <ul class="skill-list">
+                            <li>HTML, CSS, JavaScript</li>
+                            <li>Angular, React</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2"
+                                viewBox="0 0 24 24">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                                <line x1="8" y1="21" x2="16" y2="21" />
+                                <line x1="12" y1="17" x2="12" y2="21" />
+                            </svg>
+                        </div>
+                        <h3 class="skill-title">Back End</h3>
+                        <p class="skill-description">Building scalable APIs and server-side applications.</p>
+                        <ul class="skill-list">
+                            <li>Node.js, Express</li>
+                            <li>MongoDB, SQL</li>
+                            <li>REST APIs</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2"
+                                viewBox="0 0 24 24">
+                                <circle cx="12" cy="12" r="10" />
+                                <path d="M8 14s1.5 2 4 2 4-2 4-2" />
+                                <line x1="9" y1="9" x2="9.01" y2="9" />
+                                <line x1="15" y1="9" x2="15.01" y2="9" />
+                            </svg>
+                        </div>
+                        <h3 class="skill-title">Design</h3>
+                        <p class="skill-description">Crafting beautiful and intuitive user experiences.</p>
+                        <ul class="skill-list">
+                            <li>UI/UX</li>
+                            <li>Figma, Adobe XD</li>
+                            <li>Brand Identity</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WORK -->
+        <section id="work" class="recent-work">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Recent Projects</h2>
+                    <p class="section-subtitle">A showcase of my latest web development work and digital solutions.</p>
+                </div>
+
+                <div class="work-grid">
+                    <article class="work-card project-clickable">
+                        <div class="work-image">
+                            <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=800&h=500"
+                                alt="To Do List Project" loading="lazy" width="420" height="280" decoding="async">
+                            <div class="work-overlay">
+                                <span class="work-category">Productivity</span>
+                            </div>
+                        </div>
+                        <div class="work-info">
+                            <h3>Smart To-Do List</h3>
+                            <p class="work-short-desc">Efficient task management with persistent storage and
+                                categorization.</p>
+                            <div class="work-full-desc">
+                                <p>A sophisticated task management application featuring drag-and-drop prioritization,
+                                    real-time sync, and a clean minimalist UI. Built to streamline daily workflows and
+                                    boost productivity.</p>
+                                <a href="#" class="btn btn-secondary btn-small">View Demo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="work-card project-clickable">
+                        <div class="work-image">
+                            <img src="https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=800&h=500"
+                                alt="E-commerce Project" loading="lazy" width="420" height="280" decoding="async">
+                            <div class="work-overlay">
+                                <span class="work-category">Web Store</span>
+                            </div>
+                        </div>
+                        <div class="work-info">
+                            <h3>Modern E-commerce</h3>
+                            <p class="work-short-desc">A full-featured online shopping platform with cart and payment
+                                integration.</p>
+                            <div class="work-full-desc">
+                                <p>A robust e-commerce solution featuring product filtering, secure checkout, and a
+                                    dynamic inventory system. Designed for a seamless shopping experience across all
+                                    devices.</p>
+                                <a href="#" class="btn btn-secondary btn-small">View Demo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="work-card project-clickable">
+                        <div class="work-image">
+                            <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=800&h=500"
+                                alt="Vegan Store Project" loading="lazy" width="420" height="280" decoding="async">
+                            <div class="work-overlay">
+                                <span class="work-category">Lifestyle</span>
+                            </div>
+                        </div>
+                        <div class="work-info">
+                            <h3>GreenLeaf Vegan Store</h3>
+                            <p class="work-short-desc">Eco-friendly marketplace for organic and vegan products.</p>
+                            <div class="work-full-desc">
+                                <p>An elegant storefront dedicated to vegan products, featuring recipe integrations,
+                                    sustainability badges, and a community-driven review system.</p>
+                                <a href="#" class="btn btn-secondary btn-small">View Demo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="work-card project-clickable">
+                        <div class="work-image">
+                            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800&h=500"
+                                alt="CRM System Project" loading="lazy" width="420" height="280" decoding="async">
+                            <div class="work-overlay">
+                                <span class="work-category">Business</span>
+                            </div>
+                        </div>
+                        <div class="work-info">
+                            <h3>Enterprise CRM</h3>
+                            <p class="work-short-desc">Comprehensive client relationship management system for teams.
+                            </p>
+                            <div class="work-full-desc">
+                                <p>A powerful CRM system featuring lead tracking, sales analytics, and automated
+                                    follow-ups. Built with scalability and data security at its core.</p>
+                                <a href="#" class="btn btn-secondary btn-small">View Demo</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="contact">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Contact Me</h2>
+                    <p class="section-subtitle">Have a project in mind? Let's work together to build something amazing.
+                    </p>
+                </div>
+
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required autocomplete="name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required autocomplete="email">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
+
+                <div class="contact-footer">
+                    <p class="copyright">© 2026 Ammar Yaser. All rights reserved.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const projectCards = document.querySelectorAll('.project-clickable');
+
+            projectCards.forEach(card => {
+                card.addEventListener('click', (e) => {
+                    // Prevent click if clicking on a button inside the card
+                    if (e.target.closest('.btn')) return;
+
+                    card.classList.toggle('is-expanded');
+
+                    // Close other cards if needed
+                    projectCards.forEach(otherCard => {
+                        if (otherCard !== card) {
+                            otherCard.classList.remove('is-expanded');
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
